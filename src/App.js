@@ -11,6 +11,7 @@ import {
   NavItem,
   NavLink
 } from 'reactstrap';
+import { HashLink } from 'react-router-hash-link';
 import { Homepage } from './Homepage';
 import { Officers } from './Officers';
 import { Gallery } from './Gallery';
@@ -27,6 +28,7 @@ class App extends Component {
             <Route path="/gallery" component={Gallery} />
           </React.Fragment>
         </Router>
+        <Footer />
       </div>
     );
   }
@@ -49,7 +51,7 @@ class Navigation extends Component {
 
   render() {
     return (
-      <Navbar color="white" light expand="sm" className="fixed-top">
+      <Navbar color="white" light expand="md" className="fixed-top">
         <NavbarBrand tag={Link} to="/">
           <img src="./imgs/jsalogo.png" height="50" width="50" alt="logo" />
         </NavbarBrand>
@@ -60,6 +62,15 @@ class Navigation extends Component {
               <NavLink tag={Link} to="/">Home</NavLink>
             </NavItem>
             <NavItem>
+              <NavLink tag={Link} to="#">Events</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink tag={Link} to="#">Membership</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink tag={Link} to="#">Sponsors</NavLink>
+            </NavItem>
+            <NavItem>
               <NavLink tag={Link} to="/officers">Officers</NavLink>
             </NavItem>
             <NavItem>
@@ -68,6 +79,16 @@ class Navigation extends Component {
           </Nav>
         </Collapse>
       </Navbar>
+    )
+  }
+}
+
+class Footer extends Component {
+  render() {
+    return (
+      <footer>
+
+      </footer>
     )
   }
 }
