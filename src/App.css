@@ -32,6 +32,15 @@
   color: white;
 }
 
+.container {
+  margin-top: 75px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+p {
+  margin-bottom: 0px;
+}
+
 .gallery-title {
   margin-top: 75px;
 }

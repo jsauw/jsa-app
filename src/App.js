@@ -12,6 +12,7 @@ import {
   NavLink
 } from 'reactstrap';
 import { Homepage } from './Homepage';
+import { Officers } from './Officers';
 import { Gallery } from './Gallery';
 
 class App extends Component {
@@ -22,6 +23,7 @@ class App extends Component {
           <React.Fragment>
             <Navigation />
             <Route exact path="/" component={Homepage} />
+            <Route path="/officers" component={Officers} />
             <Route path="/gallery" component={Gallery} />
           </React.Fragment>
         </Router>
@@ -56,6 +58,9 @@ class Navigation extends Component {
           <Nav className="ml-auto" navbar>
             <NavItem>
               <NavLink tag={Link} to="/">Home</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink tag={Link} to="/officers">Officers</NavLink>
             </NavItem>
             <NavItem>
               <NavLink tag={Link} to="/gallery">Gallery</NavLink>
