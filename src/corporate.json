@@ -1,0 +1,12 @@
+[
+    {"img":"./imgs/abroad.png", "link":"http://www.abroad-gt.com/"},
+    {"img":"./imgs/disco.png", "link":"http://www.disco.co.jp/eg/index.html"},
+    {"img":"./imgs/fourthvalley.png", "link":"http://en.4th-valley.com/"},
+    {"img":"./imgs/ige.png", "link":"http://www.igecareer.com/"},
+    {"img":"./imgs/jobtessio.png", "link":"http://www.jobtessio.co.jp/en/index.html"},
+    {"img":"./imgs/kikokugo.png", "link":"http://www.kikokugo.com/"},
+    {"img":"./imgs/lighthouse.png", "link":"http://english.lighthouse-gl.com/"},
+    {"img":"./imgs/mynavi.png", "link":"http://usa.mynavi.jp/"},
+    {"img":"./imgs/top.png", "link":"https://top-us.com/"},
+    {"img":"./imgs/vein.png", "link":"http://www.veinglobal.jp/"}
+]

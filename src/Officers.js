@@ -36,7 +36,8 @@ class Core extends Component {
                     <img className="rounded-circle img-fluid d-block mx-auto" src="./imgs/core1.jpg" alt="" />
                     <h3>Megumi Quick</h3>
                     <h5>Secretary/Outreach</h5>
-                    <p></p>
+                    <p>Major: International Study</p>
+                    <p>Favorite Japanese Food: Udon</p>
                 </div>
                 <div className="col-lg-4 col-sm-6 text-center mb-4">
                     <img className="rounded-circle img-fluid d-block mx-auto" src="./imgs/core1.jpg" alt="" />
@@ -56,7 +57,8 @@ class Core extends Component {
                     <img className="rounded-circle img-fluid d-block mx-auto" src="./imgs/core1.jpg" alt="" />
                     <h3>Saki Kato</h3>
                     <h5>External</h5>
-                    <p></p>
+                    <p>Major: Early Childhood and Family Studies</p>
+                    <p>Favorite Japanese Food: Ochazuke</p>
                 </div>
                 <div className="col-lg-4 col-sm-6 text-center mb-4">
                     <img className="rounded-circle img-fluid d-block mx-auto" src="./imgs/core1.jpg" alt="" />

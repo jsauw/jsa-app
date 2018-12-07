@@ -50,13 +50,28 @@ p {
   max-width: 300px;
   display: table;
   margin: auto;
-  border:1px solid #021a40;
+}
+
+.socialimg {
+  display: table;
+  margin: auto;
+  margin-bottom: 50px;
+}
+
+.socialimgft {
+  float: right;
+}
+
+.corpimg {
+  display: table;
+  margin: auto;
+  margin-bottom: 50px;
 }
 
 footer {
   width: 100%;
   background: linear-gradient(to bottom right, rgb(255, 74, 74), rgb(255, 52, 177));
-  padding: 60px 0px;
+  padding: 60px 60px;
   margin-top: 75px;
 }
 

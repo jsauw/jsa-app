@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
-import sponsor from './sponsors.json'
+import sponsor from './sponsors.json';
+import corporate from './corporate.json';
 
 class Homepage extends Component {
     render() {
@@ -15,6 +16,7 @@ class Homepage extends Component {
                 <Sponsor />
                 <Visit />
                 <SocialMedia />
+                <Corporate />
             </div>
         )
     }
@@ -111,12 +113,12 @@ class Events extends Component {
 class Membership extends Component {
     render() {
         return (
-            <div className="container">
+            <div id="membership" className="container">
                 <h1 className="text-center text-md-left">Membership</h1>
                 <hr className="mb-5" />
 
                 <div className="row">
-                    <div className="col-lg-6 col-md-6">
+                    <div className="col-md-6">
                         <h4 className="my-3 text-center text-md-left">Why?</h4>
                         <p className="text-center text-md-left">You get discounts to our events and many stores on the Ave</p>
                         <h4 className="my-3 text-center text-md-left">Cost?</h4>
@@ -125,7 +127,7 @@ class Membership extends Component {
                         <p className="text-center text-md-left">You can buy them at our booth in Red Square</p>
                     </div>
 
-                    <div className="col-lg-6 col-md-6">
+                    <div className="col-md-6">
                         <img id="jsacard" className="img-fluid mt-4" src="./imgs/jsacard.jpg" alt="" />
                     </div>
                 </div>
@@ -202,12 +204,59 @@ Make new friends. Improve your language skills. (Free &amp; both UW/non-UW stude
     }
 }
 
+class Corporate extends Component {
+    render() {
+        return (
+            <div className="container">
+                <h1 className="text-center text-md-left">Corporate</h1>
+                <hr className="mb-5" />
+                <CorporateList />
+            </div>
+        )
+    }
+}
+
+class CorporateCard extends Component {
+    render() {
+        let corporates = this.props.corporates;
+        return (
+            <div className="col-sm-6">
+                <a href={corporates.link} target="_blank"><img className="corpimg" src={corporates.img} width="250" alt="" /></a>
+            </div>
+        )
+    }
+}
+
+class CorporateList extends Component {
+    render() {
+        let corp = corporate.map((r, i) => {
+            return (<CorporateCard key={'index: ' + i} corporates={r} />)
+        });
+        return (
+            <div className="row">
+                {corp}
+            </div>
+        )
+    }
+}
+
 class SocialMedia extends Component {
     render() {
         return (
             <div className="container">
                 <h1 className="text-center text-md-left">Social Media</h1>
                 <hr className="mb-5" />
+                <div className="row">
+                    <div className="col-md-4">
+                        <a href="https://www.facebook.com/jsaudub/?ref=profile" target="_blank"><img className="socialimg" src="./imgs/facebook.png" height="150" alt="" /></a>
+                    </div>
+                    <div className="col-md-4">
+                        <a href="https://www.instagram.com/jsauw/?hl=en" target="_blank"><img className="socialimg" src="./imgs/instagram.png" height="150" alt="" /></a>
+                    </div>
+                    <div className="col-md-4">
+                        <a href="https://www.youtube.com/user/jsaOfficers/videos" target="_blank"><img className="socialimg" src="./imgs/youtube.png" height="150" alt="" /></a>
+                    </div>
+                </div>
             </div>
         )
     }
