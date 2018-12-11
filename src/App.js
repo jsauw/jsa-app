@@ -29,32 +29,30 @@ import { Gallery } from './Gallery';
 class App extends Component {
   render() {
     return (
-      <div>
-        <Router onUpdate={() => window.scrollTo(0, 0)}>
-          <React.Fragment>
-            <Navigation />
-            <Route exact path="/" render={() => {
-              return (
-                <main>
-                  <Header />
-                  <Mission />
-                  <MissionJP />
-                  <Events />
-                  <Membership />
-                  <Sponsor />
-                  <Visit />
-                  <SocialMedia />
-                  <Corporate />
-                  <Credit />
-                </main>
-              );
-            }} />
-            <ScrollToTopRoute path="/officers" component={Officers} />
-            <ScrollToTopRoute path="/gallery" component={Gallery} />
-          </React.Fragment>
-        </Router>
-        <Footer />
-      </div>
+      <Router>
+        <React.Fragment>
+          <Navigation />
+          <Route exact path="/" render={() => {
+            return (
+              <main>
+                <Header />
+                <Mission />
+                <MissionJP />
+                <Events />
+                <Membership />
+                <Sponsor />
+                <Visit />
+                <SocialMedia />
+                <Corporate />
+                <Credit />
+              </main>
+            );
+          }} />
+          <ScrollToTopRoute path="/officers" component={Officers} />
+          <ScrollToTopRoute path="/gallery" component={Gallery} />
+          <Footer />
+        </React.Fragment>
+      </Router>
     );
   }
 }
