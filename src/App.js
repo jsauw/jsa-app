@@ -12,6 +12,7 @@ import {
   Nav,
   NavItem
 } from 'reactstrap';
+import ScrollToTopRoute from './ScrollToTopRoute';
 import { Header } from './Homepage';
 import { Mission } from './Homepage';
 import { MissionJP } from './Homepage';
@@ -29,7 +30,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Router>
+        <Router onUpdate={() => window.scrollTo(0, 0)}>
           <React.Fragment>
             <Navigation />
             <Route exact path="/" render={() => {
@@ -48,8 +49,8 @@ class App extends Component {
                 </main>
               );
             }} />
-            <Route path="/officers" component={Officers} />
-            <Route path="/gallery" component={Gallery} />
+            <ScrollToTopRoute path="/officers" component={Officers} />
+            <ScrollToTopRoute path="/gallery" component={Gallery} />
           </React.Fragment>
         </Router>
         <Footer />
@@ -83,31 +84,31 @@ class Navigation extends Component {
         <Collapse isOpen={this.state.isOpen} navbar>
           <Nav className="ml-auto" navbar>
             <NavItem>
-              <NavLink smooth to="/#masthead" className="nav-link change-color nav-button">Home</NavLink>
+              <NavLink smooth to="/#masthead" className="nav-link change-color nav-button" activeClassName="activeLink">Home</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink smooth to="/#about" className="nav-link change-color nav-button">About</NavLink>
+              <NavLink smooth to="/#about" className="nav-link change-color nav-button" activeClassName="activeLink">About</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink smooth to="/#events" className="nav-link change-color nav-button">Events</NavLink>
+              <NavLink smooth to="/#events" className="nav-link change-color nav-button" activeClassName="activeLink">Events</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink smooth to="/#membership" className="nav-link change-color nav-button">Membership</NavLink>
+              <NavLink smooth to="/#membership" className="nav-link change-color nav-button" activeClassName="activeLink">Membership</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink smooth to="/#sponsor" className="nav-link change-color nav-button">Sponsors</NavLink>
+              <NavLink smooth to="/#sponsor" className="nav-link change-color nav-button" activeClassName="activeLink">Sponsors</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink smooth to="/#social" className="nav-link change-color nav-button">Social</NavLink>
+              <NavLink smooth to="/#social" className="nav-link change-color nav-button" activeClassName="activeLink">Social</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink smooth to="/#corporate" className="nav-link change-color nav-button">Corporate</NavLink>
+              <NavLink smooth to="/#corporate" className="nav-link change-color nav-button" activeClassName="activeLink">Corporate</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink to="/officers" className="nav-link change-color nav-button">Officers</NavLink>
+              <NavLink to="/officers" className="nav-link change-color nav-button" activeClassName="activeLink">Officers</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink to="/gallery" className="nav-link change-color nav-button">Gallery</NavLink>
+              <NavLink to="/gallery" className="nav-link change-color nav-button" activeClassName="activeLink">Gallery</NavLink>
             </NavItem>
           </Nav>
         </Collapse>
@@ -126,7 +127,6 @@ class Footer extends Component {
             <li><a href="https://www.facebook.com/jsaudub/?ref=profile" className="icoFacebook" target="_blank" title="Facebook"><i className="fa fa-facebook"></i></a></li>
             <li><a href="https://www.instagram.com/jsauw/?hl=en" className="icoInstagram" target="_blank" title="Instagram"><i className="fa fa-instagram"></i></a></li>
             <li><a href="https://www.youtube.com/user/jsaOfficers/videos" className="icoYouTube" target="_blank" title="YouTube"><i className="fa fa-youtube"></i></a></li>
-            <li><a href="https://www.linkedin.com/company/japanese-student-association-uw-seattle/about/" className="icoLinkedin" target="_blank" title="Linkedin"><i className="fa fa-linkedin"></i></a></li>
           </ul>
         </div>
         <img className="footer-logo" src="./imgs/JSA-logo-footer.png" height="100" alt="logo" />

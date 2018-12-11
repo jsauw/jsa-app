@@ -128,10 +128,7 @@ ul.social-network li {
 .social-network a.icoYouTube:hover {
 	background-color:#ff0000;
 }
-.social-network a.icoLinkedin:hover {
-	background-color:#007bb7;
-}
-.social-network a.icoFacebook:hover i, .social-network a.icoInstagram:hover i, .social-network a.icoYouTube:hover i, .social-network a.icoLinkedin:hover i {
+.social-network a.icoFacebook:hover i, .social-network a.icoInstagram:hover i, .social-network a.icoYouTube:hover i {
 	color:#fff;
 }
 a.socialIcon:hover, .socialHoverClass {
