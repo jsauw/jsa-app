@@ -51,7 +51,8 @@ class Core extends Component {
                     <img className="rounded-circle img-fluid d-block mx-auto" src="./imgs/core1.jpg" alt="" />
                     <h3>Tessa Doane</h3>
                     <h5>Cutural</h5>
-                    <p></p>
+                    <p>Major: Marketing + Certificate of International Business</p>
+                    <p>Favorite Japanese Food: Chawanmushi</p>
                 </div>
                 <div className="col-lg-4 col-sm-6 text-center mb-4">
                     <img className="rounded-circle img-fluid d-block mx-auto" src="./imgs/core1.jpg" alt="" />

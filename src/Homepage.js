@@ -17,6 +17,7 @@ class Homepage extends Component {
                 <Visit />
                 <SocialMedia />
                 <Corporate />
+                <Credit />
             </div>
         )
     }
@@ -257,6 +258,17 @@ class SocialMedia extends Component {
                         <a href="https://www.youtube.com/user/jsaOfficers/videos" target="_blank"><img className="socialimg" src="./imgs/youtube.png" height="150" alt="" /></a>
                     </div>
                 </div>
+            </div>
+        )
+    }
+}
+
+class Credit extends Component {
+    render() {
+        return (
+            <div className="container mt-0">
+                <p className="text-center"><strong>Credit:</strong></p>
+                <p className="text-center">Rio Ishii</p>
             </div>
         )
     }
