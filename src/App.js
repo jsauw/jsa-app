@@ -126,7 +126,7 @@ class Footer extends Component {
             <li><a href="https://www.facebook.com/jsaudub/?ref=profile" className="icoFacebook" target="_blank" title="Facebook"><i className="fa fa-facebook"></i></a></li>
             <li><a href="https://www.instagram.com/jsauw/?hl=en" className="icoInstagram" target="_blank" title="Instagram"><i className="fa fa-instagram"></i></a></li>
             <li><a href="https://www.youtube.com/user/jsaOfficers/videos" className="icoYouTube" target="_blank" title="YouTube"><i className="fa fa-youtube"></i></a></li>
-            <li><a href="https://www.linkedin.com/company/japanese-student-association-uw-seattle/about/" className="icoLinkedin" target="_blank" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+            <li><a href="https://www.linkedin.com/company/japanese-student-association-uw-seattle/about/" className="icoLinkedin" target="_blank" title="Linkedin"><i className="fa fa-linkedin"></i></a></li>
           </ul>
         </div>
         <img className="footer-logo" src="./imgs/JSA-logo-footer.png" height="100" alt="logo" />
