@@ -4,25 +4,6 @@ import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import sponsor from './sponsors.json';
 import corporate from './corporate.json';
 
-class Homepage extends Component {
-    render() {
-        return (
-            <div>
-                <Header />
-                <Mission />
-                <MissionJP />
-                <Events />
-                <Membership />
-                <Sponsor />
-                <Visit />
-                <SocialMedia />
-                <Corporate />
-                <Credit />
-            </div>
-        )
-    }
-}
-
 class Header extends Component {
     render() {
         return (
@@ -43,7 +24,7 @@ class Header extends Component {
 class Mission extends Component {
     render() {
         return (
-            <div className="container">
+            <div id="about" className="container">
                 <div className="row">
                     <div className="col-lg-6">
                         <img className="img-fluid mt-4" src="./imgs/mission.jpg" alt="" />
@@ -84,7 +65,7 @@ class MissionJP extends Component {
 class Events extends Component {
     render() {
         return (
-            <div className="container">
+            <div id="events" className="container">
                 <h1 className="text-center text-md-left">Events</h1>
                 <hr className="mb-5" />
 
@@ -141,7 +122,7 @@ class Sponsor extends Component {
     render() {
         return (
             <div className="container">
-                <h1 className="text-center text-md-left">Sponsors</h1>
+                <h1 id="sponsor" className="text-center text-md-left">Sponsors</h1>
                 <hr className="mb-5" />
                 <SponsorList />
             </div>
@@ -209,7 +190,7 @@ class Corporate extends Component {
     render() {
         return (
             <div className="container">
-                <h1 className="text-center text-md-left">Corporate</h1>
+                <h1 id="corporate" className="text-center text-md-left">Corporate</h1>
                 <hr className="mb-5" />
                 <CorporateList />
             </div>
@@ -244,7 +225,7 @@ class CorporateList extends Component {
 class SocialMedia extends Component {
     render() {
         return (
-            <div className="container">
+            <div id="social" className="container">
                 <h1 className="text-center text-md-left">Social Media</h1>
                 <hr className="mb-5" />
                 <div className="row">
@@ -274,4 +255,4 @@ class Credit extends Component {
     }
 }
 
-export { Homepage };
+export { Header, Mission, MissionJP, Events, Membership, Sponsor, Visit, SocialMedia, Corporate, Credit };

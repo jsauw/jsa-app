@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { HashRouter as Router, Route, Link } from "react-router-dom";
+import { HashRouter as Router, Route, Link, Switch } from "react-router-dom";
 import { NavHashLink as NavLink } from 'react-router-hash-link'
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import '../node_modules/font-awesome/css/font-awesome.min.css';
@@ -12,7 +12,16 @@ import {
   Nav,
   NavItem
 } from 'reactstrap';
-import { Homepage } from './Homepage';
+import { Header } from './Homepage';
+import { Mission } from './Homepage';
+import { MissionJP } from './Homepage';
+import { Events } from './Homepage';
+import { Membership } from './Homepage';
+import { Sponsor } from './Homepage';
+import { Visit } from './Homepage';
+import { SocialMedia } from './Homepage';
+import { Corporate } from './Homepage';
+import { Credit } from './Homepage';
 import { Officers } from './Officers';
 import { Gallery } from './Gallery';
 
@@ -23,9 +32,26 @@ class App extends Component {
         <Router>
           <React.Fragment>
             <Navigation />
-            <Route exact path="/" component={Homepage} />
-            <Route path="/officers" component={Officers} />
-            <Route path="/gallery" component={Gallery} />
+            <Switch>
+              <Route exact path="/" render={() => {
+                return (
+                  <main>
+                    <Header />
+                    <Mission />
+                    <MissionJP />
+                    <Events />
+                    <Membership />
+                    <Sponsor />
+                    <Visit />
+                    <SocialMedia />
+                    <Corporate />
+                    <Credit />
+                  </main>
+                );
+              }} />
+              <Route path="/officers" component={Officers} />
+              <Route path="/gallery" component={Gallery} />
+            </Switch>
           </React.Fragment>
         </Router>
         <Footer />
@@ -59,25 +85,25 @@ class Navigation extends Component {
         <Collapse isOpen={this.state.isOpen} navbar>
           <Nav className="ml-auto" navbar>
             <NavItem>
-              <NavLink smooth to="/" className="nav-link change-color nav-button">Home</NavLink>
+              <NavLink smooth to="/#masthead" className="nav-link change-color nav-button">Home</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink smooth to="#" className="nav-link change-color nav-button">About</NavLink>
+              <NavLink smooth to="/#about" className="nav-link change-color nav-button">About</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink smooth to="#" className="nav-link change-color nav-button">Events</NavLink>
+              <NavLink smooth to="/#events" className="nav-link change-color nav-button">Events</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink smooth to="#" className="nav-link change-color nav-button">Membership</NavLink>
+              <NavLink smooth to="/#membership" className="nav-link change-color nav-button">Membership</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink smooth to="#" className="nav-link change-color nav-button">Sponsors</NavLink>
+              <NavLink smooth to="/#sponsor" className="nav-link change-color nav-button">Sponsors</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink smooth to="#" className="nav-link change-color nav-button">Social</NavLink>
+              <NavLink smooth to="/#social" className="nav-link change-color nav-button">Social</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink smooth to="#" className="nav-link change-color nav-button">Corporate</NavLink>
+              <NavLink smooth to="/#corporate" className="nav-link change-color nav-button">Corporate</NavLink>
             </NavItem>
             <NavItem>
               <NavLink to="/officers" className="nav-link change-color nav-button">Officers</NavLink>
