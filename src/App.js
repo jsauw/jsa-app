@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import { HashRouter as Router, Route } from "react-router-dom";
+import { HashRouter as Router, Route, Link } from "react-router-dom";
+import { NavHashLink as NavLink } from 'react-router-hash-link'
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import '../node_modules/font-awesome/css/font-awesome.min.css';
 import './App.css';
@@ -9,10 +10,8 @@ import {
   NavbarToggler,
   NavbarBrand,
   Nav,
-  NavItem,
-  NavLink
+  NavItem
 } from 'reactstrap';
-import { HashLink as Link } from 'react-router-hash-link';
 import { Homepage } from './Homepage';
 import { Officers } from './Officers';
 import { Gallery } from './Gallery';
@@ -60,31 +59,31 @@ class Navigation extends Component {
         <Collapse isOpen={this.state.isOpen} navbar>
           <Nav className="ml-auto" navbar>
             <NavItem>
-              <Link smooth to="/" className="nav-link change-color nav-button">Home</Link>
+              <NavLink smooth to="/" className="nav-link change-color nav-button">Home</NavLink>
             </NavItem>
             <NavItem>
-              <Link smooth to="#" className="nav-link change-color nav-button">About</Link>
+              <NavLink smooth to="#" className="nav-link change-color nav-button">About</NavLink>
             </NavItem>
             <NavItem>
-              <Link smooth to="#" className="nav-link change-color nav-button">Events</Link>
+              <NavLink smooth to="#" className="nav-link change-color nav-button">Events</NavLink>
             </NavItem>
             <NavItem>
-              <Link smooth to="#" className="nav-link change-color nav-button">Membership</Link>
+              <NavLink smooth to="#" className="nav-link change-color nav-button">Membership</NavLink>
             </NavItem>
             <NavItem>
-              <Link smooth to="#" className="nav-link change-color nav-button">Sponsors</Link>
+              <NavLink smooth to="#" className="nav-link change-color nav-button">Sponsors</NavLink>
             </NavItem>
             <NavItem>
-              <Link smooth to="#" className="nav-link change-color nav-button">Social</Link>
+              <NavLink smooth to="#" className="nav-link change-color nav-button">Social</NavLink>
             </NavItem>
             <NavItem>
-              <Link smooth to="#" className="nav-link change-color nav-button">Corporate</Link>
+              <NavLink smooth to="#" className="nav-link change-color nav-button">Corporate</NavLink>
             </NavItem>
             <NavItem>
-              <Link to="/officers" className="nav-link change-color nav-button">Officers</Link>
+              <NavLink to="/officers" className="nav-link change-color nav-button">Officers</NavLink>
             </NavItem>
             <NavItem>
-              <Link to="/gallery" className="nav-link change-color nav-button">Gallery</Link>
+              <NavLink to="/gallery" className="nav-link change-color nav-button">Gallery</NavLink>
             </NavItem>
           </Nav>
         </Collapse>
