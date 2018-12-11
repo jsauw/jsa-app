@@ -32,26 +32,24 @@ class App extends Component {
         <Router>
           <React.Fragment>
             <Navigation />
-            <Switch>
-              <Route exact path="/" render={() => {
-                return (
-                  <main>
-                    <Header />
-                    <Mission />
-                    <MissionJP />
-                    <Events />
-                    <Membership />
-                    <Sponsor />
-                    <Visit />
-                    <SocialMedia />
-                    <Corporate />
-                    <Credit />
-                  </main>
-                );
-              }} />
-              <Route path="/officers" component={Officers} />
-              <Route path="/gallery" component={Gallery} />
-            </Switch>
+            <Route exact path="/" render={() => {
+              return (
+                <main>
+                  <Header />
+                  <Mission />
+                  <MissionJP />
+                  <Events />
+                  <Membership />
+                  <Sponsor />
+                  <Visit />
+                  <SocialMedia />
+                  <Corporate />
+                  <Credit />
+                </main>
+              );
+            }} />
+            <Route path="/officers" component={Officers} />
+            <Route path="/gallery" component={Gallery} />
           </React.Fragment>
         </Router>
         <Footer />
