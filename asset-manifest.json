@@ -8,10 +8,10 @@
   "runtime~main.js": "/jsa-app/static/js/runtime~main.2ac99eaf.js",
   "runtime~main.js.map": "/jsa-app/static/js/runtime~main.2ac99eaf.js.map",
   "static/media/App.css": "/jsa-app/static/media/masthead.60d21051.jpg",
-  "static/media/font-awesome.min.css": "/jsa-app/static/media/fontawesome-webfont.af7ae505.woff2",
+  "static/media/font-awesome.min.css": "/jsa-app/static/media/fontawesome-webfont.fee66e71.woff",
   "static/css/main.2ade76c0.chunk.css.map": "/jsa-app/static/css/main.2ade76c0.chunk.css.map",
   "static/css/1.c9e53ba9.chunk.css.map": "/jsa-app/static/css/1.c9e53ba9.chunk.css.map",
   "index.html": "/jsa-app/index.html",
-  "precache-manifest.b1bd7e3b41dae579949a12682718874b.js": "/jsa-app/precache-manifest.b1bd7e3b41dae579949a12682718874b.js",
+  "precache-manifest.caed063a5cfcfb9f1d2138f2ff78f70e.js": "/jsa-app/precache-manifest.caed063a5cfcfb9f1d2138f2ff78f70e.js",
   "service-worker.js": "/jsa-app/service-worker.js"
 }
