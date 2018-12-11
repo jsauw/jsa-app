@@ -51,6 +51,10 @@ p {
   margin-top: 75px;
 }
 
+.pic .img-fluid {
+  transition: transform .2s;
+}
+
 #jsacard {
   border-radius: 25px;
   max-width: 300px;
@@ -64,6 +68,10 @@ p {
   margin: auto;
   margin-bottom: 50px;
   transition: transform .2s;
+}
+
+.pic .img-fluid:hover {
+  transform: scale(1.1);
 }
 
 .socialimg:hover {
