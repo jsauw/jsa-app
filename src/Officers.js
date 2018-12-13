@@ -16,7 +16,7 @@ class Officers extends Component {
 class Core extends Component {
     render() {
         return (
-            <div className="row">
+            <div className="row core">
                 <div className="col-lg-12">
                     <h2 className="my-4">Core Team</h2>
                 </div>

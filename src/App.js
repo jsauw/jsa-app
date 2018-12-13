@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { HashRouter as Router, Route } from "react-router-dom";
 
 import ScrollToTopRoute from './ScrollToTopRoute';
+
 import { Navigation } from './Navigation';
 import { Header } from './Homepage';
 import { Mission } from './Homepage';
