@@ -13,7 +13,6 @@ import { Sponsor } from './Homepage';
 import { Visit } from './Homepage';
 import { SocialMedia } from './Homepage';
 import { Corporate } from './Homepage';
-import { Credit } from './Homepage';
 import { Officers } from './Officers';
 import { Gallery } from './Gallery';
 import { Footer } from './Footer';
@@ -36,7 +35,6 @@ class App extends Component {
                 <Visit />
                 <SocialMedia />
                 <Corporate />
-                <Credit />
               </main>
             );
           }} />

@@ -389,15 +389,4 @@ class SocialMedia extends Component {
     }
 }
 
-class Credit extends Component {
-    render() {
-        return (
-            <div className="container mt-0">
-                <p className="text-center"><strong>Credit:</strong></p>
-                <p className="text-center">Rio Ishii</p>
-            </div>
-        )
-    }
-}
-
-export { Header, Mission, MissionJP, Events, Membership, Sponsor, Visit, SocialMedia, Corporate, Credit };
+export { Header, Mission, MissionJP, Events, Membership, Sponsor, Visit, SocialMedia, Corporate };

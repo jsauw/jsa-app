@@ -16,6 +16,7 @@ class Footer extends Component {
         </div>
         <img className="footer-logo" src="./imgs/JSA-logo-footer.png" height="100" alt="logo" />
         <p className="text-center mt-4">© 2019 Japanese Student Association. All Rights Reserved.</p>
+        <p className="text-center">Credit: Rio Ishii</p>
       </footer>
     )
   }
