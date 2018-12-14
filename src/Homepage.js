@@ -85,6 +85,11 @@ class Events extends Component {
                     </div>
                     <div className="col-lg-3 col-md-4 col-6">
                         <a className="d-block mb-4 h-100">
+                            <img className="img-fluid" src="./imgs/dessert2018.png" alt="" />
+                        </a>
+                    </div>
+                    <div className="col-lg-3 col-md-4 col-6">
+                        <a className="d-block mb-4 h-100">
                             <img className="img-fluid" src="./imgs/bbq2018.png" alt="" />
                         </a>
                     </div>
@@ -121,6 +126,11 @@ class Events extends Component {
                     </div>
                     <div className="col-lg-3 col-md-4 col-6">
                         <a className="d-block mb-4 h-100">
+                            <img className="img-fluid" src="./imgs/curry2018.png" alt="" />
+                        </a>
+                    </div>
+                    <div className="col-lg-3 col-md-4 col-6">
+                        <a className="d-block mb-4 h-100">
                             <img className="img-fluid" src="./imgs/washoku2018.png" alt="" />
                         </a>
                     </div>
@@ -137,6 +147,11 @@ class Events extends Component {
                     <div className="col-lg-3 col-md-4 col-6">
                         <a className="d-block mb-4 h-100">
                             <img className="img-fluid" src="./imgs/christmas2017.png" alt="" />
+                        </a>
+                    </div>
+                    <div className="col-lg-3 col-md-4 col-6">
+                        <a className="d-block mb-4 h-100">
+                            <img className="img-fluid" src="./imgs/club2017.png" alt="" />
                         </a>
                     </div>
                     <div className="col-lg-3 col-md-4 col-6">
