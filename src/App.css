@@ -51,6 +51,14 @@
   margin-top: 75px;
 }
 
+#events .img-fluid {
+  transition: transform .2s;
+}
+
+#events .img-fluid:hover {
+  transform: scale(1.05);
+}
+
 .pic .img-fluid {
   transition: transform .2s;
 }
