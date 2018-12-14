@@ -51,11 +51,11 @@
   margin-top: 75px;
 }
 
-#events .img-fluid {
+.posters .img-fluid {
   transition: transform .2s;
 }
 
-#events .img-fluid:hover {
+.posters .img-fluid:hover {
   transform: scale(1.05);
 }
 
@@ -63,12 +63,21 @@
   transition: transform .2s;
 }
 
-#jsacard {
+.jsacard img {
   border-radius: 25px;
   max-width: 300px;
   display: table;
   margin: auto;
-  transition: transform .2s;
+  /* transition: transform .2s; */
+}
+
+.jsacard:before {
+  content: '';
+  top: 0;
+  left: 0;
+  width: 100px;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.3)
 }
 
 .socialimg {
@@ -86,9 +95,9 @@
   transform: scale(1.25);
 }
 
-#jsacard:hover {
+/* #jsacard:hover {
   transform: scale(1.1);
-}
+} */
 
 .socialimgft {
   float: right;

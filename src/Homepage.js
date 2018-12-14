@@ -65,8 +65,8 @@ class MissionJP extends Component {
 class Events extends Component {
     render() {
         return (
-            <div id="events" className="container">
-                <h1 className="text-center text-md-left">Events</h1>
+            <div className="container posters">
+                <h1 id="events" className="text-center text-md-left">Events</h1>
                 <hr className="mb-5" />
 
                 <div className="row">
@@ -239,8 +239,8 @@ class Membership extends Component {
                         <p className="text-center text-md-left">You can buy them at our booth in Red Square</p>
                     </div>
 
-                    <div className="col-md-6">
-                        <img id="jsacard" className="img-fluid mt-4" src="./imgs/jsacard.jpg" alt="" />
+                    <div className="jsacard col-md-6">
+                        <img className="img-fluid mt-4" src="./imgs/jsacard.jpg" alt="" />
                     </div>
                 </div>
             </div>
