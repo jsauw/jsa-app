@@ -1,17 +1,17 @@
 {
   "main.css": "/jsa-app/static/css/main.7ba60822.chunk.css",
-  "main.js": "/jsa-app/static/js/main.7dd568d7.chunk.js",
-  "main.js.map": "/jsa-app/static/js/main.7dd568d7.chunk.js.map",
+  "main.js": "/jsa-app/static/js/main.d0928bcd.chunk.js",
+  "main.js.map": "/jsa-app/static/js/main.d0928bcd.chunk.js.map",
   "static/css/1.8a2c933c.chunk.css": "/jsa-app/static/css/1.8a2c933c.chunk.css",
   "static/js/1.b4d13a04.chunk.js": "/jsa-app/static/js/1.b4d13a04.chunk.js",
   "static/js/1.b4d13a04.chunk.js.map": "/jsa-app/static/js/1.b4d13a04.chunk.js.map",
   "runtime~main.js": "/jsa-app/static/js/runtime~main.2ac99eaf.js",
   "runtime~main.js.map": "/jsa-app/static/js/runtime~main.2ac99eaf.js.map",
   "static/media/App.css": "/jsa-app/static/media/masthead.60d21051.jpg",
-  "static/media/font-awesome.min.css": "/jsa-app/static/media/fontawesome-webfont.af7ae505.woff2",
-  "static/css/1.8a2c933c.chunk.css.map": "/jsa-app/static/css/1.8a2c933c.chunk.css.map",
+  "static/media/font-awesome.min.css": "/jsa-app/static/media/fontawesome-webfont.674f50d2.eot",
   "static/css/main.7ba60822.chunk.css.map": "/jsa-app/static/css/main.7ba60822.chunk.css.map",
+  "static/css/1.8a2c933c.chunk.css.map": "/jsa-app/static/css/1.8a2c933c.chunk.css.map",
   "index.html": "/jsa-app/index.html",
-  "precache-manifest.246eabaa2ba4c90604880909face390d.js": "/jsa-app/precache-manifest.246eabaa2ba4c90604880909face390d.js",
+  "precache-manifest.3cfb370ab49b8fd0ad8aee6a9d02f202.js": "/jsa-app/precache-manifest.3cfb370ab49b8fd0ad8aee6a9d02f202.js",
   "service-worker.js": "/jsa-app/service-worker.js"
 }
