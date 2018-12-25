@@ -28,7 +28,7 @@ class Core extends Component {
                     <p>Favorite Japanese Food: Sukiyaki</p>
                 </div>
                 <div className="col-lg-4 col-sm-6 text-center mb-4">
-                    <img className="rounded-circle img-fluid d-block mx-auto" src="./imgs/nana2.jpg" alt="" />
+                    <img className="rounded-circle img-fluid d-block mx-auto" src="./imgs/nana.jpg" alt="" />
                     <h3>Nana Yamagata</h3>
                     <h5>Treasurer</h5>
                     <p>Major: Mechanical Engineering</p>
@@ -42,14 +42,14 @@ class Core extends Component {
                     <p>Favorite Japanese Food: Udon</p>
                 </div>
                 <div className="col-lg-4 col-sm-6 text-center mb-4">
-                    <img className="rounded-circle img-fluid d-block mx-auto" src="./imgs/koko2.jpg" alt="" />
+                    <img className="rounded-circle img-fluid d-block mx-auto" src="./imgs/koko.jpg" alt="" />
                     <h3>Kokoro Abe</h3>
                     <h5>Internal</h5>
                     <p>Major: Public Health</p>
                     <p>Favorite Japanese Food: Umeboshi</p>
                 </div>
                 <div className="col-lg-4 col-sm-6 text-center mb-4">
-                    <img className="rounded-circle img-fluid d-block mx-auto" src="./imgs/tessa2.jpg" alt="" />
+                    <img className="rounded-circle img-fluid d-block mx-auto" src="./imgs/tessa.jpg" alt="" />
                     <h3>Tessa Doane</h3>
                     <h5>Cutural</h5>
                     <p>Major: Marketing + Certificate of International Business</p>
@@ -63,7 +63,7 @@ class Core extends Component {
                     <p>Favorite Japanese Food: Ochazuke</p>
                 </div>
                 <div className="col-lg-4 col-sm-6 text-center mb-4">
-                    <img className="rounded-circle img-fluid d-block mx-auto" src="./imgs/erica2.jpg" alt="" />
+                    <img className="rounded-circle img-fluid d-block mx-auto" src="./imgs/erica.jpg" alt="" />
                     <h3>Erica Tan</h3>
                     <h5>Publicity</h5>
                     <p></p>
