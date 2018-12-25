@@ -45,16 +45,16 @@ class PicList extends Component {
 class Photographers extends Component {
     render() {
         return (
-            <div className="container">
+            <div className="container photographer">
                 <h1 className="text-center text-md-left">Photographers</h1>
                 <hr className="mb-5" />
                 <div className="row">
-                    <div className="col-md-6 text-center mb-4">
-                        <img className="rounded-circle img-fluid d-block mx-auto" src="./imgs/core1.jpg" alt="" />
+                    <div className="col-sm-6 text-center mb-4">
+                        <img className="rounded-circle img-fluid d-block mx-auto" src="./imgs/ken.jpg" alt="" />
                         <h3>Ken Ito</h3>
                     </div>
-                    <div className="col-md-6 text-center mb-4">
-                        <img className="rounded-circle img-fluid d-block mx-auto" src="./imgs/core1.jpg" alt="" />
+                    <div className="col-sm-6 text-center mb-4">
+                        <img className="rounded-circle img-fluid d-block mx-auto" src="./imgs/bradley.jpg" alt="" />
                         <h3>Bradley Kim</h3>
                     </div>
                 </div>

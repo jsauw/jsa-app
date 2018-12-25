@@ -47,6 +47,10 @@
   margin-bottom: 0px;
 }
 
+.core h3, .photographer h3 {
+  margin-top: 8px;
+}
+
 .gallery-title {
   margin-top: 75px;
 }
