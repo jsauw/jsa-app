@@ -54,7 +54,7 @@ class Photographers extends Component {
                         <h3>Ken Ito</h3>
                     </div>
                     <div className="col-sm-6 text-center mb-4">
-                        <img className="rounded-circle img-fluid d-block mx-auto" src="./imgs/bradley.jpg" alt="" />
+                        <img className="rounded-circle img-fluid d-block mx-auto" src="./imgs/bradley2.jpg" alt="" />
                         <h3>Bradley Kim</h3>
                     </div>
                 </div>
