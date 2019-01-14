@@ -1,17 +1,17 @@
 {
   "main.css": "/jsa-app/static/css/main.7ba60822.chunk.css",
-  "main.js": "/jsa-app/static/js/main.eae1ebd0.chunk.js",
-  "main.js.map": "/jsa-app/static/js/main.eae1ebd0.chunk.js.map",
+  "main.js": "/jsa-app/static/js/main.b926bab8.chunk.js",
+  "main.js.map": "/jsa-app/static/js/main.b926bab8.chunk.js.map",
   "static/css/1.8a2c933c.chunk.css": "/jsa-app/static/css/1.8a2c933c.chunk.css",
   "static/js/1.b4d13a04.chunk.js": "/jsa-app/static/js/1.b4d13a04.chunk.js",
   "static/js/1.b4d13a04.chunk.js.map": "/jsa-app/static/js/1.b4d13a04.chunk.js.map",
   "runtime~main.js": "/jsa-app/static/js/runtime~main.2ac99eaf.js",
   "runtime~main.js.map": "/jsa-app/static/js/runtime~main.2ac99eaf.js.map",
   "static/media/App.css": "/jsa-app/static/media/masthead.60d21051.jpg",
-  "static/media/font-awesome.min.css": "/jsa-app/static/media/fontawesome-webfont.af7ae505.woff2",
+  "static/media/font-awesome.min.css": "/jsa-app/static/media/fontawesome-webfont.b06871f2.ttf",
   "static/css/main.7ba60822.chunk.css.map": "/jsa-app/static/css/main.7ba60822.chunk.css.map",
   "static/css/1.8a2c933c.chunk.css.map": "/jsa-app/static/css/1.8a2c933c.chunk.css.map",
   "index.html": "/jsa-app/index.html",
-  "precache-manifest.ad0b21f5933264e3c2282f5ed7c896bd.js": "/jsa-app/precache-manifest.ad0b21f5933264e3c2282f5ed7c896bd.js",
+  "precache-manifest.00c800a7e0383de367f5cddf135807f8.js": "/jsa-app/precache-manifest.00c800a7e0383de367f5cddf135807f8.js",
   "service-worker.js": "/jsa-app/service-worker.js"
 }
