@@ -322,7 +322,7 @@ class Visit extends Component {
                         <p className="text-center">A friendly environment for English and Japanese-learners to meet and socialize.
 Make new friends. Improve your language skills. (Free &amp; both UW/non-UW students are welcome) </p>
                         <p className="text-center mt-3">Every Wednesday, 5:30pm</p>
-                        <p className="text-center mt-3">@ HUB Cafeteria</p>
+                        <p className="text-center mt-3">@ HUB Starbucks</p>
                         <p className="text-center mt-3"> Learn more <a href="https://www.facebook.com/groups/kaiwatableuw/" target="_blank">Here!</a></p>
                     </div>
                 </div>
